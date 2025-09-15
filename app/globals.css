@@ -1,11 +1,30 @@
 @import "tailwindcss";
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+
+}
+
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
 @theme inline {
+  /* warna custom */
+  --color-warna1: #d9d9d9;
+  --color-warna2: #d4c9be;
+  --color-warna3: #123458;
+  --color-warna4: #030303;
+  --color-putih: #ffffff;
+
+  /* existing */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
