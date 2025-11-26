@@ -32,18 +32,18 @@ const Hero = () => {
         initial={{ opacity: 0, x: -100 }}
         animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="absolute top-[30%] left-5 right-5 md:left-20 md:right-auto max-w-2xl px-4 py-6 text-left"
+        className="absolute top-[25%] sm:top-[30%] left-4 right-4 sm:left-6 sm:right-6 md:left-12 lg:left-20 md:right-auto max-w-xl lg:max-w-3xl px-4 sm:px-6 py-6 text-left"
       >
-        <h1 className="text-xl sm:text-2xl md:text-4xl font-bold font-['Maven_Pro'] text-warna2 leading-snug drop-shadow-lg">
-          Drag n’ Drop – Jasa Desain & Pembuatan Website Profesional
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold font-['Maven_Pro'] text-warna2 leading-tight sm:leading-snug drop-shadow-lg mb-4 sm:mb-6">
+          Drag n' Drop Jasa Desain & Pembuatan Website Profesional
         </h1>
-        <p className="mt-4 mb-9 text-sm sm:text-base md:text-lg font-poppins text-white leading-relaxed drop-shadow">
+        <p className="mt-3 sm:mt-4 mb-6 sm:mb-8 text-base sm:text-lg md:text-xl lg:text-2xl font-Poppins text-white leading-relaxed">
           Kami menangani <span className="font-bold">desain</span> dan{" "}
           <span className="font-bold">pengembangan website</span> dengan cepat,
           kreatif, dan hasil siap pakai.
         </p>
         <motion.a
-          className="mt-6 sm:mt-8 bg-blue-950 hover:bg-blue-900 text-white px-5 py-2 sm:px-6 sm:py-3 rounded-lg font-poppins font-medium transition inline-block text-center"
+          className="mt-4 sm:mt-6 bg-blue-950 hover:bg-blue-900 text-white px-6 py-3 sm:px-8 sm:py-4 text-base sm:text-lg rounded-lg font-poppins font-medium transition inline-block text-center shadow-lg"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           initial={{ opacity: 0 }}
