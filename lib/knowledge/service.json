@@ -1,0 +1,35 @@
+{
+  "uiux_design": {
+    "title": "UI/UX Design",
+    "description": "Perancangan pengalaman pengguna (UX) dan antarmuka (UI) yang modern, intuitif, dan mudah digunakan.",
+    "deliverables": [
+      "Wireframe",
+      "Prototype",
+      "Desain High-Fidelity",
+      "Dokumentasi Style Guide",
+      "File Figma"
+    ]
+  },
+  "web_development": {
+    "title": "Pembuatan Website",
+    "description": "Pembuatan website cepat, responsif, SEO-ready, dan siap pakai. Menggunakan teknologi modern seperti Next.js dan Tailwind CSS.",
+    "deliverables": [
+      "Landing Page",
+      "Company Profile",
+      "Portofolio Website",
+      "Website UMKM",
+      "Setup Domain & Hosting"
+    ]
+  },
+  "graphic_design": {
+    "title": "Desain Grafis",
+    "description": "Pembuatan identitas visual dan kebutuhan digital branding seperti poster, banner, dan social media kit.",
+    "deliverables": [
+      "Logo",
+      "Poster",
+      "Banner",
+      "Brand Guideline",
+      "Konten Social Media"
+    ]
+  }
+}
