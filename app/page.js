@@ -6,6 +6,7 @@ import LayananKami from "@/components/LayananKami";
 import Contact from "@/components/contact";
 import React, { useEffect } from "react";
 import Footer from "@/components/footer";
+import ChatWidget from "@/components/ChatWidget";
 
 const Home = () => {
   useEffect(() => {
@@ -25,6 +26,7 @@ const Home = () => {
       <LayananKami />
       <Contact />
       <Footer />
+      <ChatWidget />
     </div>
   );
 };
