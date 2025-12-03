@@ -6,7 +6,7 @@ import ChatWidget from "../components/ChatWidget";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import LayananKami from "../components/LayananKami";
-import { Contact } from "lucide-react";
+import  Contact  from "../components/Contact";
 
 
 const Home = () => {
