@@ -1,12 +1,13 @@
 "use client";
-
-import About from "@/components/about";
-import Hero from "@/components/hero";
-import LayananKami from "@/components/LayananKami";
-import Contact from "@/components/contact";
 import React, { useEffect } from "react";
-import Footer from "@/components/footer";
-import ChatWidget from "@/components/ChatWidget";
+
+import About from "../components/About";
+import ChatWidget from "../components/ChatWidget";
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
+import LayananKami from "../components/LayananKami";
+import  Contact  from "../components/Contact";
+
 
 const Home = () => {
   useEffect(() => {

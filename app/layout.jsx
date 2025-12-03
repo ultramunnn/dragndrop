@@ -1,7 +1,7 @@
 // app/layout.jsx
 import { Poppins, Maven_Pro } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/navbar";
+import Navbar from "../components/Navbar";
 
 const poppins = Poppins({
   subsets: ["latin"],
